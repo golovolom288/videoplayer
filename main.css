@@ -1,7 +1,7 @@
 button{
     border: none;
     color:white;
-    background-color: black;
+    background-color: transparent;
 }
 button:hover{
     cursor: pointer;
