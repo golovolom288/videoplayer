@@ -1,0 +1,12 @@
+button{
+    border: none;
+    color:white;
+    background-color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+.buttons-field{
+    background-color: black;
+    width: 800px;
+}
