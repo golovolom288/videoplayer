@@ -2,6 +2,8 @@ button{
     border: none;
     color:white;
     background-color: transparent;
+    justify-content: center;
+    align-items: center;
 }
 button:hover{
     cursor: pointer;
@@ -9,4 +11,5 @@ button:hover{
 .buttons-field{
     background-color: black;
     width: 800px;
+    display: flex;
 }
