@@ -5,6 +5,7 @@ button{
     justify-content: center;
     align-items: center;
     font-size: large;
+    margin-right: 5px;
 }
 button:hover{
     cursor: pointer;
