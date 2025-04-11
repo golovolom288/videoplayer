@@ -27,4 +27,6 @@ button:hover{
 .video-container{
     flex-grow: 10;
 }
-
+.empty-div{
+    width: 730px;
+}
