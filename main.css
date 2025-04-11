@@ -4,6 +4,7 @@ button{
     background-color: transparent;
     justify-content: center;
     align-items: center;
+    font-size: large;
 }
 button:hover{
     cursor: pointer;
@@ -25,3 +26,4 @@ button:hover{
 .video-container{
     flex-grow: 10;
 }
+
