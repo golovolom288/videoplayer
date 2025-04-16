@@ -6,6 +6,7 @@
 Видеоплеер с функциями включения/выключения видео и звука на кнопку, показа видео со звуком, полноэкранного режима
 
 ![videoplayer](Screenshot.PNG)
+
 Адрес сайта: https://golovolom288.github.io/videoplayer/
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
