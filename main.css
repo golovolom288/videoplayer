@@ -6,6 +6,8 @@ button{
     align-items: center;
     font-size: large;
     margin-right: 5px;
+    width: 30px;
+    height: 30px;
 }
 button:hover{
     cursor: pointer;
