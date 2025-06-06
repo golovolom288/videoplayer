@@ -2,23 +2,21 @@
     border: none;
     color:white;
     background-color: transparent;
-    justify-content: center;
-    align-items: center;
     font-size: large;
-    margin-right: 5px;
     width: 30px;
     height: 30px;
-}
-
-button:hover{
     cursor: pointer;
+    margin-left: 3px ;
+    margin-right: 4px;
 }
 
 .buttons-field{
     background-color: black;
-    flex-grow: 1;
     display: flex;
-    align-items: end;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 7px;
+    margin-top: 5px;
 }
 
 .player{
@@ -27,12 +25,55 @@ button:hover{
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
     display: flex;
     flex-direction: column;
+    background-color: black
 }
 
 .video-container{
-    flex-grow: 10;
+    flex-grow: 1;
 }
 
-.empty-div{
-    flex-grow: 10;
+.progress-time{
+  font-family: "Roboto";
+  font-weight: 400;
+  color: white;
+  margin-left: -5px;
+}
+
+.progress-bar{
+    padding: 0 2px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.progress-slider{
+    background-color: red;
+    height: 5px;
+    border-radius: 3px;
+}
+
+.time-panel{
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.progress-indicator{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 3px white;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.time-panel:hover .progress-indicator{
+    opacity: 1;
+    transition: 0.3s ;
 }
